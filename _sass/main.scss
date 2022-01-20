@@ -1,74 +1,63 @@
-@charset "utf-8";
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css');
+// Fonts preferences
+$sans-family: Roboto, sans-serif;
+$mono-family: Consolas, monospace;
+$base-font-size: 16px;
+$medium-font-size: $base-font-size * 0.938;
+$small-font-size: $base-font-size * 0.875;
+$base-line-height: 1.85;
 
+// Font weight
+// $light-weight: 300; // uncomment if necessary
+$normal-weight: 400;
+$bold-weight: 700;
+// $black-weight: 900; // uncomment if necessary
 
-html,
-body {
-    font-family: 'Poppins', sans-serif;
-    scroll-behavior: smooth !important;
-    transition: all 0.25s ease;
+//Light Colors
+$text-base-color: #434648;
+$text-link-blue: #003fff;
+$text-link-blue-active: #0036c7;
+
+$black: #0d122b;
+$light: #ececec;
+$smoke: #d2c7c7;
+$gray: #6b7886;
+$white: #fff;
+
+// Dark Colors
+$dark-text-base-color: #c7bebe;
+$dark-text-link-blue: #ff5277;
+$dark-text-link-blue-active: #ff2957;
+
+$dark-black: #131418;
+$dark-white: #eaeaea;
+$dark-light: #1b1d25;
+$dark-smoke: #4a4d56;
+$dark-gray: #767f87;
+
+// Width of the content area
+$wide-size: 890px;
+$narrow-size: 720px;
+
+// Padding unit
+$spacing-full: 30px;
+$spacing-half: $spacing-full / 2;
+
+// State of devices
+$on-mobile: 768px;
+$on-tablet: 769px;
+$on-desktop: 1024px;
+$on-widescreen: 1152px;
+
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
 }
 
-
-
-/* width */
-::-webkit-scrollbar {
-    width: 0.5vmax !important;
+@mixin relative-font-size($ratio) {
+  font-size: $base-font-size * $ratio;
 }
 
-/* Track */
-::-webkit-scrollbar-track {
-    background: white !important;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: #363636 !important;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: black !important;
-}
-
-::placeholder {
-    font-family: 'Poppins', sans-serif;
-}
-
-#navbar {
-    .navbar-burger {
-        span:nth-child(2) {
-            left: calc(50%);
-            width: 8px;
-        }
-    }
-}
-
-.is-active {
-    font-weight: bold;
-}
-
-.columns {
-    .button {
-        margin: 0.5rem !important;
-    }
-}
-
-hr {
-    margin: 1rem auto;
-    height: 1px;
-}
-
-.column {
-    margin: auto 0.5rem;
-    padding: 0.5rem;
-}
-
-.searchResult {
-    a {
-        .title {
-            text-decoration: underline;
-        }
-    }
-}
+// Import sass files
+@import "klise/fonts", "klise/base", "klise/layout", "klise/post",
+  "klise/miscellaneous", "klise/syntax", "klise/dark";
