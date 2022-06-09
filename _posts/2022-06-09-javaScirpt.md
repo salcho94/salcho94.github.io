@@ -4,7 +4,6 @@ layout: post
 post-image: "https://raw.githubusercontent.com/thedevslot/WhatATheme/master/assets/images/SamplePost.png?token=AHMQUEPC4IFADOF5VG4QVN26Z64GG"
 tags:
 ---
-22. 6. 9. 오전 9:38 Javascript 문법
 
 ## 자바스크립트, ES6, 바닐라 자바스크립트?
 
