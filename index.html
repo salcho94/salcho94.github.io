@@ -140,16 +140,19 @@
                 <div id="contact_form">
                   <form class="gform" id ="gform" method="post">
                     <label for="author">Name :</label>
-                    <input type="text" maxlength="40" id="author" class="input_field" name="name" />
+                    <input type="text" maxlength="40" id="author" class="input_field" name="name"/>
+                    <div></div>
                     <div class="cleaner_h10"></div>
                     <label for="email">Email:</label>
                     <input type="text" maxlength="40" id="email" class="input_field" name="email" />
+                    <div></div>
                     <div class="cleaner_h10"></div>
                     <label for="subject">Phone:</label>
                     <input type="text" maxlength="40" id="subject" class="input_field" name="Phone" />
+                    <div></div>
                     <div class="cleaner_h10"></div>
-                    <label for="text">Message:</label>
-                    <textarea id="text" name="text" rows="0" cols="0" class="required"></textarea>
+                    <label for="text">Memo</label>
+                    <textarea id="text" name="Memo" rows="0" cols="0" ></textarea>
                     <div class="cleaner_h10"></div>
                     <input type="button" id="sendEmail" value="전송" class="submit_btn float_r" />
                   </form>
@@ -188,6 +191,7 @@
     <div class="cleaner"></div>
   </div>
   <script src="js/luck.js"></script>
+  <script src="js/validate.js"></script>
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   <script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
   
@@ -206,12 +210,12 @@ function sendMail(){
 
 
 $('#sendEmail').click(function(){
-  sendMail();
+  if(validateForm()){
+     sendMail();
+  }
+  
 });
 
-function open(){
-  alert("test")
-}
   </script>
 </body>
 
