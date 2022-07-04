@@ -41,16 +41,21 @@ function buildQuiz(){
 
 
              for(i = 0 ; i < total ; i++){
-                paging.push(`<span class="page_btn" onclick="pagingGo(${i+1},${totalCount})">${i+1}</span>` );
+                paging.push(`<span class="page_btn clickPage${i+1}" onclick="pagingGo(${i+1},${totalCount})">${i+1}</span>` );
                 page.innerHTML = paging.join(' ');
              }
              pagingGo(1,totalCount);
  }
 
-    function pagingGo(page,total){
+    function pagingGo(page,total,e){
         let limit = (page * 3);
         let between = limit - 2;
         
+         $('.page_btn').css('color','black');  
+         $('.page_btn').css('background','white'); 
+        $('.clickPage'+page).css('color','snow');   
+        $('.clickPage'+page).css('background','rebeccapurple');
+
         for(let i = 0 ; i  <= total; i ++){
             if((between <= i) && (i <= limit)){
                 $('.quiz'+i).addClass('show');
@@ -71,7 +76,7 @@ function buildQuiz(){
     }
 
  function showResult(){
-
+    if(confirm("정답을 제출하시겠습니까?")){
     //'answer'이름의 클래스를 배열로 저장하기
      const answerDisplays = quizDisplay.querySelectorAll('.answer');  
      let numCorrect = 0; //퀴즈 정답률 기록
@@ -97,9 +102,13 @@ function buildQuiz(){
        });
        
        
-             //resultDisplay DOM에 결과값 삽입하기
-              resultDisplay.innerHTML = `${numCorrect} out of ${quizData.length}`; 
-       
+            //resultDisplay DOM에 결과값 삽입하기
+            resultDisplay.innerHTML = `${numCorrect} out of ${quizData.length}`; 
+            alert(`문제수 : ${quizData.length}` + '\n'+  `정답 : ${numCorrect}` + '\n'+  `점수 : ${( numCorrect / quizData.length) * 100}`)
+            if(( numCorrect / quizData.length) * 100 == 100){ alert('백점을 축하합니다 똑똑하시네요!!!!')}
+            if(( numCorrect / quizData.length) * 100 == 0){ alert('빵점이시네요....공부하세요....')}
+        }
+        
        
 }
 
