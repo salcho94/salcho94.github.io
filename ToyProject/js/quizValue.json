@@ -1,0 +1,252 @@
+data = [   
+   {
+      "question" : "웹 콘텐츠의 구조를 짜고 의미를 부여하는 마크업 언어는 무엇일까요?",
+      "answers" : {
+         "a" : "Html",
+         "b" : "CSS",
+         "c" : "JavaScript",
+         "d" : "java"
+      },
+      "correct" : "a"
+   },
+   {
+      "question" : "자바스크립트를 쉽게 활용할 수 있도록 도와주는 오픈소스 기반의 자바스크립트 라이브러리는 무엇일까요?",
+      "answers" : {
+         "a" : "vue",
+         "b" : "css",
+         "c" : "jQuery",
+         "d" : "node.js"
+      },
+       "correct" : "c"
+   },
+   {
+      "question" : "기호로 작성된 프로그램은 기계가 이해할 수 없기 때문에 고급언어를 기계어로 번역하는 작업을 하는 프로그램은 무엇일까요?",
+      "answers" : {
+         "a" : "고급 언어",
+         "b" : "스레드",
+         "c" : "컴파일러",
+         "d" : "이진법"
+      },
+       "correct" : "c"
+   },
+   {
+      "question" : "프론트 엔드부터 서버 개발까지 한 가지 프로그래밍 언어를 사용한다면 어떤 언어가 좋을까요?",
+      "answers" : {
+         "a" : "JavaScript",
+         "b" : "python",
+         "c" : "java",
+         "d" : "vue"
+      },
+       "correct" : "a"
+   },
+   {
+      "question" : "컴퓨터나 통신 장비 사이에서 메시지를 주고 받기 위해 설계된 일련의 규칙 체계는 무엇인가요?",
+      "answers" : {
+         "a" : "코딩컨벤션",
+         "b" : "Protocol",
+         "c" : "ssh",
+         "d" : "ajax"
+      },
+       "correct" : "b"
+   },
+   {
+      "question" : "프로토콜의 구성 요소가 아닌것은?",
+      "answers" : {
+         "a" : "구문(syntax)",
+         "b" : "캡슐화(Encapsulation)",
+         "c" : "의미(semantic)",
+         "d" : "타이밍(timing)"
+      },
+       "correct" : "b"
+   },
+   {
+      "question" : "Java란? Java의 특징을 고르세요",
+      "answers" : {
+         "a" : "단일 스레드",
+         "b" : "직접 메모리 관리를 한다",
+         "c" : "객체 지향 언어(OOP, Object Oriented Programming)",
+         "d" : "운영체제에 의존적"
+      },
+       "correct" : "c"
+   },
+   {
+      "question" : "Java란? Java의 특징이 아닌것은?",
+      "answers" : {
+         "a" : "하이브리드 언어이다",
+         "b" : "추상화 (Abstraction) ",
+         "c" : "메모리를 자동으로 관리한다",
+         "d" : "자바는 실행을 위해 자바 가상 머신을 거쳐야하므로, 다른 언어에 비해 실행 속도가 빠르다"
+      },
+       "correct" : "d"
+   },
+   {
+      "question" : "컴퓨터의 컴퓨터의 머리와 같고, 데이터를 처리하는 곳은?",
+      "answers" : {
+         "a" : "CPU",
+         "b" : "HDD ",
+         "c" : "SSD",
+         "d" : "RAM"
+      },
+       "correct" : "a"
+   },
+   {
+      "question" : "자바 바이트코드를 실행할 수 있는 환경을 제공해준다 이것은 무엇일까요??",
+      "answers" : {
+         "a" : "garbageCollector",
+         "b" : "JVM ",
+         "c" : "Thread",
+         "d" : "IDE"
+      },
+       "correct" : "b"
+   },
+   {
+      "question" : "API는 무엇을 의미하나요?",
+      "answers" : {
+         "a" : "애플의 신제품",
+         "b" : "data base 에 접근하기 위한 언어",
+         "c" : "요청과 응답을 사용하여 두 애플리케이션이 서로 통신하는 방법을 정의",
+         "d" : "IDE"
+      },
+       "correct" : "c"
+   },
+   {
+      "question" : "주석이란?",
+      "answers" : {
+         "a" : "화면에 표시되거나 기능을 수행하지는 않지만 우리가 쓴 코드를 설명하기 위해 주로 사용",
+         "b" : "시진핑",
+         "c" : "class, id 속성을 함께 사용하는 것이 일반적",
+         "d" : "원하는 파일의 경로를 인식하는 방법"
+      },
+       "correct" : "a"
+   }, 
+   {
+      "question" : "form 태그에대한 설명으로 올바른것은?",
+      "answers" : {
+         "a" : "리스트를 표현하기 위해 사용하는 태그",
+         "b" : "사용자가 클릭할 수 있는 버튼을 만드는 태그",
+         "c" : "어떤 방식으로 페이지를 이동할 것인가",
+         "d" : "사용자 입력을 받아 서버에 네트워크 요청을 할 때 사용하는 태그"
+      },
+       "correct" : "d"
+   }, 
+   {
+      "question" : "순수한 자바스크립트를 무엇일까요?",
+      "answers" : {
+         "a" : "바닐라 자바스크립트",
+         "b" : "jquery",
+         "c" : "vue",
+         "d" : "resolve"
+      },
+       "correct" : "a"
+   }, 
+   {
+      "question" : "자바스크립트로 할 수 있는 일이 아닌것은?",
+      "answers" : {
+         "a" : "HTML, CSS 추가하기 또는 기존 요소 수정, 삭제하기",
+         "b" : "클라이언트 저장소 활용 (쿠키, 로컬 스토리지)",
+         "c" : "서버에서 명령어를 이용한 결과 값 조회",
+         "d" : "네트워크 요청 (fetch, ajax, axios 등..)"
+      },
+       "correct" : "c"
+   }, 
+   {
+      "question" : "자바스크립트 코드 작성시 주의사항으로 틀린것은?",
+      "answers" : {
+         "a" : "코드 한줄을 작성 한뒤엔 세미콜론(;)을 사용합니다.",
+         "b" : "변수명에는 한글을 사용할 수 있습니다.",
+         "c" : "코드는 대소문자를 구분하여 작성합니다.",
+         "d" : "코드를 작성할때는 괄호의 짝이 맞아야합니다."
+      },
+       "correct" : "b"
+   }, 
+   {
+      "question" : "REST API 단점 3가지로 틀린것은?",
+      "answers" : {
+         "a" : "안티패턴으로 설계될 가능성이 높다.",
+         "b" : "표준 규약이 없다. ",
+         "c" : "RDBMS의 표현에 적합하지 않다.",
+         "d" : "가독성이 떨어진다."
+      },
+       "correct" : "d"
+   }, 
+   {
+      "question" : "컴퓨터 프로그램에서 실세계의 규칙에 따라 데이터를 생성·표시·저장·변경하는 부분을 일컫는다.",
+      "answers" : {
+         "a" : "DataBase",
+         "b" : "aws ",
+         "c" : "Business logic",
+         "d" : "sql"
+      },
+       "correct" : "c"
+   }, 
+   {
+      "question" : "디자인 패턴(Design Pattern)이 아닌것은??",
+      "answers" : {
+         "a" : "문제(Problem) 패턴",
+         "b" : "생성(Creational) 패턴",
+         "c" : "행동(Behavioral) 패턴",
+         "d" : "구조(Structural) 패턴"
+      },
+       "correct" : "a"
+   }, 
+   {
+      "question" : "카멜 표기법을 대표적으로 채택한 언어는??",
+      "answers" : {
+         "a" : "java",
+         "b" : "c",
+         "c" : "c++",
+         "d" : "sql"
+      },
+       "correct" : "a"
+   }, 
+   {
+      "question" : " 마크업 언어를 만드는데 사용하도록 권장하는 다목적 마크업 언어는??",
+      "answers" : {
+         "a" : "java",
+         "b" : "xml",
+         "c" : "c++",
+         "d" : "python"
+      },
+       "correct" : "b"
+   },  
+   {
+      "question" : "JDBC를 통해 데이터베이스에 엑세스하는 작업을 캡슐화하고 일반 SQL 쿼리, 저장 프로 시저 및 고급 매핑을 지원하며 모든 JDBC 코드 및 매개 변수의 중복작업을 제거해주는 프레임 워크는?",
+      "answers" : {
+         "a" : "mvc",
+         "b" : "typescript",
+         "c" : "oracle",
+         "d" : "mybatis"
+      },
+       "correct" : "d"
+   },
+   {
+      "question" : "SPA 란??",
+      "answers" : {
+         "a" : "반복적인 태스크를 소프트웨어 로봇이 대신하는 것",
+         "b" : "컴포넌트들이 모여 한 페이지를 작성하고, 특정 부분만 데이터를 바인딩하는 개념",
+         "c" : "운영체제와는 독립적으로 실행하는 프레임워크",
+         "d" : "목욕"
+      },
+       "correct" : "b"
+   }, 
+   {
+      "question" : "axios란??",
+      "answers" : {
+         "a" : "요청 객체에 url이 없다.",
+         "b" : ".json()메서드를 사용해야 한다.",
+         "c" : "Node.js를 위한 Promise API를 활용하는 HTTP 비동기 통신 라이브러리입니다",
+         "d" : "body 속성을 사용"
+      },
+       "correct" : "c"
+   }, 
+   {
+      "question" : "fetch란??",
+      "answers" : {
+         "a" : "요청 객체에 url이 있다.",
+         "b" : "HTTP 요청을 가로챌수 있음",
+         "c" : "자동으로 JSON데이터 형식으로 변환된다",
+         "d" : "body 속성을 사용"
+      },
+       "correct" : "d"
+   }, 
+]

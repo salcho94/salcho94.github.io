@@ -1,151 +1,5 @@
-const quizData = [
-
-    {
-        question : '웹개발에 주로 사용되는 프론트언어는?1',
-        answers : {
-           a : "일본어",
-           b : "다랑어",
-           c : "자바스크립트"
-        },
-       correct : 'c'
-    },
-    {
-        question : '웹개발에 주로 사용되는 프론트언어는?2',
-        answers : {
-           a : "일본어",
-           b : "다랑어",
-           c : "자바스크립트"
-        },
-       correct : 'c'
-    },
-    {
-        question : '웹개발에 주로 사용되는 프론트언어는?3',
-        answers : {
-           a : "일본어",
-           b : "다랑어",
-           c : "자바스크립트"
-        },
-       correct : 'c'
-    },
-    {
-        question : '웹개발에 주로 사용되는 프론트언어는?4',
-        answers : {
-           a : "일본어",
-           b : "다랑어",
-           c : "자바스크립트"
-        },
-       correct : 'c'
-    },
-    {
-        question : '웹개발에 주로 사용되는 프론트언어는?5',
-        answers : {
-           a : "일본어",
-           b : "다랑어",
-           c : "자바스크립트"
-        },
-       correct : 'c'
-    },
-    {
-        question : '웹개발에 주로 사용되는 프론트언어는?6',
-        answers : {
-           a : "일본어",
-           b : "다랑어",
-           c : "자바스크립트"
-        },
-       correct : 'c'
-    },
-    {
-        question : '웹개발에 주로 사용되는 프론트언어는?7',
-        answers : {
-           a : "일본어",
-           b : "다랑어",
-           c : "자바스크립트"
-        },
-       correct : 'c'
-    },
-    {
-        question : '웹개발에 주로 사용되는 프론트언어는?8',
-        answers : {
-           a : "일본어",
-           b : "다랑어",
-           c : "자바스크립트"
-        },
-       correct : 'c'
-    },
-    {
-        question : '웹개발에 주로 사용되는 프론트언어는?9',
-        answers : {
-           a : "일본어",
-           b : "다랑어",
-           c : "자바스크립트"
-        },
-       correct : 'c'
-    },
-    {
-        question : '웹개발에 주로 사용되는 프론트언어는?10',
-        answers : {
-           a : "일본어",
-           b : "다랑어",
-           c : "자바스크립트"
-        },
-       correct : 'c'
-    },
-    {
-        question : '웹개발에 주로 사용되는 프론트언어는?11',
-        answers : {
-           a : "일본어",
-           b : "다랑어",
-           c : "자바스크립트"
-        },
-       correct : 'c'
-    },
-    {
-        question : '웹개발에 주로 사용되는 프론트언어는?12',
-        answers : {
-           a : "일본어",
-           b : "다랑어",
-           c : "자바스크립트"
-        },
-       correct : 'c'
-    },
-    {
-        question : '웹개발에 주로 사용되는 프론트언어는?13',
-        answers : {
-           a : "일본어",
-           b : "다랑어",
-           c : "자바스크립트"
-        },
-       correct : 'c'
-    },
-    {
-        question : '웹개발에 주로 사용되는 프론트언어는?14',
-        answers : {
-           a : "일본어",
-           b : "다랑어",
-           c : "자바스크립트"
-        },
-       correct : 'c'
-    },
-    {
-        question : '웹개발에 주로 사용되는 프론트언어는?15',
-        answers : {
-           a : "일본어",
-           b : "다랑어",
-           c : "자바스크립트"
-        },
-       correct : 'c'
-    },
-    {
-        question : '웹개발에 주로 사용되는 프론트언어는?16',
-        answers : {
-           a : "일본어",
-           b : "다랑어",
-           c : "자바스크립트"
-        },
-       correct : 'c'
-    }
-    
-]
+const quizData = JSON.parse(JSON.stringify(data));
+console.log(quizData);
 
 const quizDisplay = document.getElementById('quiz');
 const submitBtn = document.getElementById('submitQuiz');
@@ -164,11 +18,11 @@ function buildQuiz(){
     quizData.forEach(  //quizData배열값 불러오기 
         (currentQuestion, questionNum) => { 
             const answers = [ ]; //퀴즈 선택지 배열
- 
              for(item in currentQuestion.answers){  
                  //퀴즈 선택지 DOM구조 생성
+                 
                   answers.push(`<label>  
-                                <input type="radio" name="question${questionNum}" value="${item}">
+                                <input type="radio" name="question${questionNum}"  value="${item}">
                                    ${item} : ${currentQuestion.answers[item]}
                                 </label>`);                            
                     
@@ -177,7 +31,7 @@ function buildQuiz(){
                   output.push(`<div class="question hide quiz${(questionNum+1)}"> ${currentQuestion.question}</div>
                                <div class="answer hide quiz${(questionNum+1)}">${answers.join('')}</div>`);
    
-                        total = Math.ceil((questionNum+1) / 10);
+                        total = Math.ceil((questionNum+1) / 3);
                         totalCount = questionNum+1
                   
              });
@@ -187,15 +41,15 @@ function buildQuiz(){
 
 
              for(i = 0 ; i < total ; i++){
-                paging.push(`<span onclick="pagingGo(${i+1},${totalCount})">${i+1}</span>` );
-                page.innerHTML = paging;
+                paging.push(`<span class="page_btn" onclick="pagingGo(${i+1},${totalCount})">${i+1}</span>` );
+                page.innerHTML = paging.join(' ');
              }
              pagingGo(1,totalCount);
  }
 
     function pagingGo(page,total){
-        let limit = (page * 10);
-        let between = limit -9;
+        let limit = (page * 3);
+        let between = limit - 2;
         
         for(let i = 0 ; i  <= total; i ++){
             if((between <= i) && (i <= limit)){

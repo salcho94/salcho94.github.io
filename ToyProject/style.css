@@ -26,7 +26,7 @@ h1 { font-size: 38px; font-weight: normal; margin: 0 0 20px 0; padding: 5px 0; }
 h2 { font-size: 30px; font-weight: normal; margin: 0 0 30px 0; font-weight: normal; }
 h3 { font-size: 16px; margin: 0 0 15px 0; padding: 0; padding: 0; font-weight: normal;  }
 h4 { font-size: 14px; margin: 0 0 5px 0; padding: 0; }
-
+label{display: block;}
 
 .list-type5{
 	width:410px;
@@ -267,7 +267,13 @@ em { color: #29b5d3; }
 	border: 1px solid #CCC;
 	margin: 0 30px 0 0;
 }
-
+.question{padding-top: 20px; font-weight: bold;} 
+.quiz_submit{border:1px solid tomato; padding:5px; border-radius:5px; color:tomato;}
+.page_btn{
+	cursor:pointer;
+	padding: 5px 15px 5px 15px;
+    border: 2px solid black;
+}
 .show{
 	display: block;
 }
