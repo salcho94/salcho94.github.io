@@ -1,7 +1,4 @@
-/*
-	Template 2018 Notebook
-    http://www.tooplate.com/view/2018-notebook
-*/
+
 
 body {
 	margin: 0px;
@@ -57,7 +54,7 @@ label{display: block;}
 	
 	.list-type5 li:hover{
 	box-shadow:inset -1em 0 #6CD6CC;
-	-webkit-transition: box-shadow 0.5s; /* For Safari 3.1 to 6.0 */
+	-webkit-transition: box-shadow 0.5s; 
 	transition: box-shadow 0.5s;
 	}
 	
@@ -178,26 +175,6 @@ em { color: #29b5d3; }
 	text-decoration: none; 
 }
 
-.service_list li .service_one { 
-	background: url(images/onebit_08.png) center left no-repeat; 
-}
-
-.service_list li .service_two { 
-	background: url(images/onebit_11.png) center left no-repeat; 
-}
-
-.service_list li .service_three { 
-	background: url(images/onebit_17.png) center left no-repeat; 
-}
-
-.service_list li .service_four { 
-	background: url(images/onebit_21.png) center left no-repeat; 
-}
-
-.service_list li .service_five { 
-	background: url(images/onebit_12.png) center left no-repeat; 
-}
-
 #contact_form {  
 	padding: 0; 
 }
@@ -267,6 +244,7 @@ em { color: #29b5d3; }
 	border: 1px solid #CCC;
 	margin: 0 30px 0 0;
 }
+.canvas { background: #eee; }
 .question{padding-top: 20px; font-weight: bold;} 
 .quiz_submit{border:1px solid tomato; padding:5px; border-radius:5px; color:tomato;cursor:pointer;}
 .page_btn{
@@ -282,4 +260,37 @@ em { color: #29b5d3; }
 	display: none;
 }
 
-/* end of gallery */
+#startGame{
+	text-align: center;
+    font-size: 20px;
+    line-height: 4;
+    cursor: pointer;
+}
+
+.progress-bar {
+    background-color: #09B864;
+    border-radius: 4px;
+    box-shadow: inset 0 0.5em 0.5em rgba(0,0,0,0.05);
+    height: 5px;
+    margin: 2rem 0 2rem 0;
+    overflow: hidden;
+    position: relative;
+    transform: translateZ(0);
+    width: 100%;
+  }
+
+  .progress-bar__bar {
+    background-color: #ececec;
+    box-shadow: inset 0 0.5em 0.5em rgba(94, 49, 49, 0.05);
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .progress-bar__bar.active {
+    transition: all 3000ms ease-out;
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%)
+  }

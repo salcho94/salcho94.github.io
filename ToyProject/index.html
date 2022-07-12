@@ -8,7 +8,7 @@
 	Template 2018 Notebook
     http://www.tooplate.com/view/2018-notebook
 -->
-  <title>Notebook - Toy Project</title>
+  <title>Salcho Project</title>
   <meta name="keywords" content="" />
   <meta name="description" content="" />
   <link href="style.css" rel="stylesheet" type="text/css" />
@@ -35,7 +35,7 @@
             <li><a href="#home" class="selected menu_01">Home</a></li>
             <li><a href="#History" class="menu_02">History</a></li>
             <li><a href="#Test" class="menu_03">Developer Test</a></li>
-            <li><a href="#gallery" class="menu_04">My location</a></li>
+            <li><a href="#Game" class="menu_04">Mini Game</a></li>
             <li><a href="#contactus" class="menu_05">Contact</a></li>
           </ul>
         </div>
@@ -47,7 +47,7 @@
             <div class="panel" id="home">
               <h3>안녕하세요</h3> 개발자 <strong>"INTP SALCHO"</strong> 입니다.
               <p>
-                이 홈페이지는 제가 심심해서 개발한<strong>Toy Project</strong>입니다.<br>
+                이 홈페이지는 제가 심심해서 개발한<strong>Project</strong>입니다.<br>
                 들어오신 기념으로 <strong>오늘의 명언</strong>을 확인 할 수 있도록 <strong>니체의 명언</strong>을 준비했습니다.<br>
                 <strong>오늘보다 내일 더 나은 삶</strong>을 기원합니다.
               </p>
@@ -95,41 +95,18 @@
             <div class="panel" id="Test">
               <h1>Developer Test</h1>    
                   <div id="quiz">  </div>
-              
               <div id="page" style="margin-top: 5%; margin-bottom: 5%;"></div>
               <button id="submitQuiz" class="submit_btn quiz_submit"> Submit </button>
               <div id="result"> </div>
             </div>
 
-            <div class="panel" id="gallery">
-              <h1>Our Galleries</h1>
-              <div id="gallery_container">
-                <div class="gallery_box float_l">
-                  <h4>Project One</h4>
-                  <a href="#"><img src="images/gallery/image_01.jpg" alt="Project 1" /></a>
-                </div>
-                <div class="gallery_box float_r">
-                  <h4>Project Two</h4>
-                  <a href="#"><img src="images/gallery/image_02.jpg" alt="Project 2" /></a>
-                </div>
-                <div class="gallery_box float_l">
-                  <h4>Project Three</h4>
-                  <a href="#"><img src="images/gallery/image_03.jpg" alt="Project 3" /></a>
-                </div>
-                <div class="gallery_box float_r">
-                  <h4>Project Four</h4>
-                  <a href="#"><img src="images/gallery/image_04.jpg" alt="Project 4" /></a>
-                </div>
-                <div class="gallery_box float_l">
-                  <h4>Project Five</h4>
-                  <a href="#"><img src="images/gallery/image_05.jpg" alt="Project 5" /></a>
-                </div>
-                <div class="gallery_box float_r">
-                  <h4>Project Six</h4>
-                  <a href="#"><img src="images/gallery/image_06.jpg" alt="Project 6" /></a>
-                </div>
-                <div class="cleaner"></div>
-              </div>
+            <div class="panel" id="Game">
+              <div id="startGame" onclick="playGame();">
+                <strong>간단한 미니게임을 준비했습니다 재밌게 플레이 하세요 !</strong>
+               <img src="/images/game/start.png"></img>
+              </div> 
+               <canvas id="myGame" width="500" height="500"></canvas>
+               <button onclick="stopGame();">그만하기</button>
             </div>
 
             <div class="panel" id="contactus">
@@ -158,8 +135,11 @@
                     <label for="text">Memo</label>
                     <textarea id="text" name="Memo" rows="0" cols="0" ></textarea>
                     <div class="cleaner_h10"></div>
-                    <input type="button" id="sendEmail" value="전송" class="submit_btn float_r" />
+                    <input type="button" id="sendEmail" value="전송" class="submit_btn float_r btn-progress" />
                   </form>
+                  <div class="progress-bar">
+                    <div class="progress-bar__bar"></div>
+                  </div>
                 </div>
               </div>
               <div class="col_380 float_r"> </div>
@@ -194,32 +174,14 @@
 
     <div class="cleaner"></div>
   </div>
-  <script src="js/quizValue.json" type="text/javascript"></script>
+  <script src="./js/quizValue.json" type="text/javascript"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
   <script src="js/luck.js"></script>
   <script src="js/quiz.js"></script>
   <script src="js/validate.js"></script>
-  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-  <script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
-  <script>
-function sendMail(){
-  let form = $('#gform').serialize();
-  axios
-    .post(`https://script.google.com/macros/s/AKfycbxnUddp2p0467_DwYu65HswMGS2oFC1qsBCPs5Uyg/exec`, form)
-    .then(res => {
-      if(res.data.result == 'success'){alert('메일전송이 성공하였습니다.')}
-      console.log(res)
-    })
-}
-
-
-$('#sendEmail').click(function(){
-  if(validateForm()){
-     sendMail();
-  }
-  
-});
-
-  </script>
+  <script src="js/game.js"></script>
+  <script src="js/mail.js"></script>
 </body>
 
 </html>
