@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/festival_de_cannes/static/css/main.1273322f.chunk.css",
-    "main.js": "/festival_de_cannes/static/js/main.0e6a55d7.chunk.js",
-    "main.js.map": "/festival_de_cannes/static/js/main.0e6a55d7.chunk.js.map",
-    "runtime-main.js": "/festival_de_cannes/static/js/runtime-main.69345819.js",
-    "runtime-main.js.map": "/festival_de_cannes/static/js/runtime-main.69345819.js.map",
-    "static/js/2.59cefb43.chunk.js": "/festival_de_cannes/static/js/2.59cefb43.chunk.js",
-    "static/js/2.59cefb43.chunk.js.map": "/festival_de_cannes/static/js/2.59cefb43.chunk.js.map",
-    "index.html": "/festival_de_cannes/index.html",
-    "precache-manifest.93fcb8ff165a7f8fecdcef51b290b300.js": "/festival_de_cannes/precache-manifest.93fcb8ff165a7f8fecdcef51b290b300.js",
-    "service-worker.js": "/festival_de_cannes/service-worker.js",
-    "static/css/main.1273322f.chunk.css.map": "/festival_de_cannes/static/css/main.1273322f.chunk.css.map",
-    "static/js/2.59cefb43.chunk.js.LICENSE.txt": "/festival_de_cannes/static/js/2.59cefb43.chunk.js.LICENSE.txt"
+    "main.css": "/MovieProject/static/css/main.1273322f.chunk.css",
+    "main.js": "/MovieProject/static/js/main.4bd8fb11.chunk.js",
+    "main.js.map": "/MovieProject/static/js/main.4bd8fb11.chunk.js.map",
+    "runtime-main.js": "/MovieProject/static/js/runtime-main.6aa24260.js",
+    "runtime-main.js.map": "/MovieProject/static/js/runtime-main.6aa24260.js.map",
+    "static/js/2.c76a4dc9.chunk.js": "/MovieProject/static/js/2.c76a4dc9.chunk.js",
+    "static/js/2.c76a4dc9.chunk.js.map": "/MovieProject/static/js/2.c76a4dc9.chunk.js.map",
+    "index.html": "/MovieProject/index.html",
+    "precache-manifest.d691efa00b88eaa6306875393a231890.js": "/MovieProject/precache-manifest.d691efa00b88eaa6306875393a231890.js",
+    "service-worker.js": "/MovieProject/service-worker.js",
+    "static/css/main.1273322f.chunk.css.map": "/MovieProject/static/css/main.1273322f.chunk.css.map",
+    "static/js/2.c76a4dc9.chunk.js.LICENSE.txt": "/MovieProject/static/js/2.c76a4dc9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.69345819.js",
-    "static/js/2.59cefb43.chunk.js",
+    "static/js/runtime-main.6aa24260.js",
+    "static/js/2.c76a4dc9.chunk.js",
     "static/css/main.1273322f.chunk.css",
-    "static/js/main.0e6a55d7.chunk.js"
+    "static/js/main.4bd8fb11.chunk.js"
   ]
 }
