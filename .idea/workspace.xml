@@ -4,14 +4,62 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1907d7f4-fe3e-4dca-9947-1f7e0b1cd420" name="Changes" comment="2022 add test" />
+    <list default="true" id="1907d7f4-fe3e-4dca-9947-1f7e0b1cd420" name="Changes" comment="2022 add test">
+      <change afterPath="$PROJECT_DIR$/SalchoMovie/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalchoMovie/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalchoMovie/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalchoMovie/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalchoMovie/public/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalchoMovie/public/images/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalchoMovie/public/images/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalchoMovie/public/images/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalchoMovie/public/images/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalchoMovie/public/images/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalchoMovie/public/images/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalchoMovie/public/images/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalchoMovie/public/images/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalchoMovie/public/images/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalchoMovie/public/images/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalchoMovie/public/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalchoMovie/public/images/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalchoMovie/public/images/21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalchoMovie/public/images/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalchoMovie/public/images/23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalchoMovie/public/images/24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalchoMovie/public/images/25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalchoMovie/public/images/26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalchoMovie/public/images/27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalchoMovie/public/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalchoMovie/public/images/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalchoMovie/public/images/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalchoMovie/public/images/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalchoMovie/public/images/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalchoMovie/public/images/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalchoMovie/public/images/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalchoMovie/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalchoMovie/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalchoMovie/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalchoMovie/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalchoMovie/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalchoMovie/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalchoMovie/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalchoMovie/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalchoMovie/src/components/Contents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalchoMovie/src/components/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalchoMovie/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalchoMovie/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalchoMovie/src/logo.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalchoMovie/src/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalchoMovie/src/serviceWorker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalchoMovie/src/setupTests.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/MovieProject" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -27,7 +75,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/kimjisoup/Desktop/KJS/WORKSPACE/salcho94.github.io/MovieProject/src",
+    "last_opened_file_path": "/Users/kimjisoup/Desktop/KJS/WORKSPACE/salcho94.github.io/SalchoMovie",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -38,6 +86,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SalchoMovie" />
       <recent name="$PROJECT_DIR$/MovieProject/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -52,7 +101,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664247384783</updated>
-      <workItem from="1664247386787" duration="3638000" />
+      <workItem from="1664247386787" duration="3921000" />
     </task>
     <task id="LOCAL-00001" summary="2022 add">
       <created>1664265168100</created>
@@ -82,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664265643636</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="2022 add test">
+      <created>1664266240790</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664266240790</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
