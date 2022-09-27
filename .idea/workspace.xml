@@ -4,18 +4,114 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1907d7f4-fe3e-4dca-9947-1f7e0b1cd420" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MovieProject/public/images/27.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieProject/src/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieProject/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/MovieProject/build/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieProject/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/MovieProject/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieProject/build/precache-manifest.d691efa00b88eaa6306875393a231890.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieProject/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/MovieProject/build/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieProject/build/static/js/main.4bd8fb11.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieProject/build/static/js/main.4bd8fb11.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieProject/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/MovieProject/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieProject/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/MovieProject/src/components/Header.js" afterDir="false" />
+    <list default="true" id="1907d7f4-fe3e-4dca-9947-1f7e0b1cd420" name="Changes" comment="2022 add">
+      <change afterPath="$PROJECT_DIR$/MovieProject/build/images/27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/build/precache-manifest.d31e6b81b7451e1d9b515a860a1d8be6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/build/static/js/main.091c6637.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/build/static/js/main.091c6637.chunk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/016a4ce036a641a55096731e64b1594b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/047f1e1b3922c9dab6089b4d55e3618b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/07a2d7dcd2584faa067e0dba8f049e0a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/08e7c1acea69b54efe78e7a14a944e30.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/1a867d5d9518a67554d046f94c015509.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/215cd88b7ba8185b10b9a90709c0bc7c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/22dcf09b30df59b416f8ffcf22f2ea95.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/27047ef29fd88cc1259e3a1ff5ac6a7d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/2b5feb77ec8b96c252f48f6a31106591.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/3076db55aea8ad40d5d0ea5c3e808d7f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/34532b8dc05d264d97670b362c3dc5f7.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/347d1b436b023e7464d07fae9ec420bd.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/36bf7b9e7fa50feb16d7af3734519558.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/38f9b3b90cbc57957f4aed54e925d2fb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/3edc242a75fed5b4b2ae8ff2020939fe.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/3f04652f383aab6bd4a62ed8e290fc8a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/3f3e6f0ed9181c6687708bb3cef8987b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/3ff60a70151cddb5cb8a164868548807.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/44b28ba0a89cd70b994e4b79093b5f07.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/4a32ac1087026cfe59edb2f4c36ea9ca.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/4d4191320e3a73f791bd44a84120faaa.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/4fccc6a0bb4d456e12160f1507867596.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/5252f9e247071c6f2b5e06b0a0b346e5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/52d2e355dcd51adda814deff4d3df786.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/538e45d788262986881c776f91e3f921.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/54be002534897d16b915ee35cd089882.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/569ee2c87edb9f582d5d45b0a043228c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/5cd15243bba69da3c28175291f680401.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/62b7af9cd16dbc895c69681d51c72102.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/6375a7d0d57bbe088325801661210f21.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/6469c761e11b2587eeb2e78a0952a0d0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/65930824c4876818b17d341e04ebba92.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/66dee496ca46a4c7669a3081abc99a4f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/6c115600a375ab001b59a62e0304aaa9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/71bcafa3fef697d9e0f81a161a0c3965.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/7671eae2fca4f18585ed9fb1d2387515.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/818c9662d3d127a0d5cbe2c5cb035a11.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/88da958cd2811439dabe8cab75260e8e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/8b2f7c1daa13c9a751d049177ef5a15b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/8ee8a8f44ce266a37fe36f49d6bfe7af.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/91246422304d200335a402ca59b30bbc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/927f039a9901c193f9b8f52465b348a9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/978b50e08aa4f23c4de99b92f331b79c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/9a8c3b1f50c26f5b5e39095a5bb4a873.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/9b240d879f070462207a8e979d27b45f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/9c828a331dcf4eb1a915654bc21216e9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/9e86e66efc55ec6a3a0bc0d72e96d9d1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/a433c724a0a81b14f4d2055acbb0a2b8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/a90f3078f00754962b9e61a1213f3ecb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/b38642b8906ded2f2cfd700e24f0bc5c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/b5c772b0f0d42d20ffc295cce3066a91.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/b66ba29ce604d72e20e599e77550bcc0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/b799aebf5b060a1b43ba36b076e11884.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/b8d472baf48cc1fa27e663082a281014.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/bb0c27c0790aaf9efc56c675a312fa30.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/bb5b2784c42468c17b33afc369c15245.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/bc21cc3dae60496218e848faadaecef5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/bf54f1801a8d7002e1b4b049b00ec837.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/cb279fb50bd0d634e58f5b59cdda9fc0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/cc79f06188ba15eb299bf55c63520f66.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/d20a91693bc7eb70dc6f4260e991abb1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/d792999d3cddc85b8e0ac4dfe7c284bb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/da01127a83e647ccc26020175a0fa0c0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/db353f9df8a9eacb69bcf43e8ca2266c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/dc8074cef3e16dc90019d46903f8d327.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/e03af11803c0247e60c18bddbc5d6dd3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/e4e05e1cad6b0bc5087a3c3ab0b2f0e1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/e6dc58c96337dd0dd6c5f54b54fc675e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/ee5b77bdcdc830fe66009838c37cc600.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/f019b97a476c2d3874446482c32b1e8d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/f4a8c6bd6af306bda1e0ed2d51dc9d6e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/f555674e375349b1536d4d24221147d3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/f81e662a06c0f1c4e37f706b5837cd7f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/f9cbee07ca4b6c2fc9b00f9dbe5f846a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/faeae3a5a265fddb7afcf15ab2a6bd63.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/babel-loader/ff5ddd6ec0907ccd5b4d201879874008.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/eslint-loader/059c04acaa88a8042e3f8dbd035f32139f6704ae.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/eslint-loader/2d9c046e682ac27319921a270e701409fcd2eff0.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/eslint-loader/33aa6b28374e4c7bd43399bcd75617d30c7c40ac.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/eslint-loader/4a869526c427ed421f9b25e6da651653d441945d.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/eslint-loader/4d57fba0473878608a36e7f5ba15ba02c80a807f.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/eslint-loader/52d7024ac881abaa7ddacf3934b05f9826c01b88.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/eslint-loader/5859a3af84d655ae8e01315b27eb0f41198d4d0a.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/eslint-loader/66bc214cfae6c361d497fb7c1d006a2158b5549c.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/eslint-loader/69dde0fc40de188edb3aea8177e6656707e34be9.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/eslint-loader/776e0c22f64a56df1283df0ae66ed20d3c2a2756.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/eslint-loader/8d6214cfcc2d4fd529e0e97fe4a6302a48e7e26a.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/eslint-loader/93bfe9cff7af38df491b808fdd13cc757b1306a0.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/eslint-loader/9626aa95c24a55b8173e85e6ac5e3fd41387c2dd.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/eslint-loader/a7b098df7101d32bbeb153c66317bddb007f3e7c.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/eslint-loader/b1c914e9b5c6dfd979a5e1c79b1ab4015828a066.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/eslint-loader/bfd1c64bd6490ee5dd728695778121ac2c2438cd.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/eslint-loader/cfd955ecaae278e0cfb598324eac00d47c57e33e.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/eslint-loader/d8fe9fb3f19fc699a9b9def3ca56a962654066b4.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/eslint-loader/dd6a871197dc58586144990fc5856d70bc109669.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/eslint-loader/f5bfa8824486de55cba27b263c199f8691951701.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/terser-webpack-plugin/content-v2/sha512/00/17/5a5992b9af5f39eaee40aa0c74d1a31f3fa0bb1a613fc951fd198aa415598d9db925728a2b536d8ca3a4b8514799b20f76951ceba20b74d2883c75548013" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/terser-webpack-plugin/content-v2/sha512/a9/bf/ebe4ae504e0c3525445ea46433ad97dba710e27e9d15df4afd38da71c620b275c64b89054e9f25c02942ca60cd7af7844ba74e7681a8758ff1f503b6bdda" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/terser-webpack-plugin/content-v2/sha512/b9/50/068ab898cbaf1e55d791a1f2250470a163987c7eae30ab9a787d18ff48bbce3e88ec6856d1aa8316bd86b20692326d59639e235e740d114dc137d627b71c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/terser-webpack-plugin/index-v5/09/c9/05971a1e71b2810e02a5dac5d1989aa563ec814932c62e3f1441cfe30557" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/terser-webpack-plugin/index-v5/ac/b3/12b9890d98f11d678f011ea115447770b555e221f7d0dec78a89548283fc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/.cache/terser-webpack-plugin/index-v5/b3/f9/def56dc31f1e8a639a705fd740e2cd26dbad5c85ba2f433fb301c2b49e44" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieProject/node_modules/gh-pages/.cache/github.com!salcho94!MovieProject.git" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,8 +160,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664247384783</updated>
-      <workItem from="1664247386787" duration="2750000" />
+      <workItem from="1664247386787" duration="3039000" />
     </task>
+    <task id="LOCAL-00001" summary="2022 add">
+      <created>1664265168100</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664265168100</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2022 add">
+      <created>1664265239715</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664265239715</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,5 +192,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2022 add" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022 add" />
   </component>
 </project>
