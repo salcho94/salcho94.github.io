@@ -6,7 +6,7 @@ class Header extends Component {
         return (
             <div className="header">
                 <h1><a href=""><img src={logo} alt="salcho" /></a></h1>
-                <p>칸 국제영화제 연도별 국내 출품작</p>
+                <p> 년도별 영화 정보 </p>
                 <ul className="year_list">
                     <li>
                         <a
