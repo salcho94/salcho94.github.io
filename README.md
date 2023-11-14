@@ -1,2 +1,2 @@
 # salcho94.github.io
-repository
+my git blog  입니다.
