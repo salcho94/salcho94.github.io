@@ -5,40 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1907d7f4-fe3e-4dca-9947-1f7e0b1cd420" name="Changes" comment="blog update">
-      <change afterPath="$PROJECT_DIR$/Projects/react_blog.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReactBlog/asset-manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReactBlog/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReactBlog/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReactBlog/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReactBlog/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReactBlog/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReactBlog/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReactBlog/static/css/main.e90249c8.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReactBlog/static/css/main.e90249c8.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReactBlog/static/js/787.f587e8d5.chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReactBlog/static/js/787.f587e8d5.chunk.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReactBlog/static/js/main.7684c310.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReactBlog/static/js/main.7684c310.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReactBlog/static/js/main.7684c310.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReactShop/asset-manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReactShop/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReactShop/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReactShop/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReactShop/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReactShop/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReactShop/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReactShop/static/css/main.a07fb428.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReactShop/static/css/main.a07fb428.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReactShop/static/js/749.77eb5db8.chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReactShop/static/js/749.77eb5db8.chunk.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReactShop/static/js/787.affa5bbf.chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReactShop/static/js/787.affa5bbf.chunk.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReactShop/static/js/main.fb807d95.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReactShop/static/js/main.fb807d95.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReactShop/static/js/main.fb807d95.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReactShop/static/media/404.9df0a883913807fd5c41.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReactShop/static/media/bg.7633cea79570af8c2420.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,15 +50,20 @@
       <recent name="$PROJECT_DIR$/MovieProject/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kjs\WebstormProjects\salcho94.github.io\Projects" />
       <recent name="$PROJECT_DIR$/MovieProject/public/images" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/salcho94.github.io/ReactShop/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/salcho94.github.io/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
@@ -108,7 +79,7 @@
       <workItem from="1664247386787" duration="5727000" />
       <workItem from="1664411285602" duration="564000" />
       <workItem from="1697203536356" duration="1496000" />
-      <workItem from="1699924896157" duration="1610000" />
+      <workItem from="1699924896157" duration="1732000" />
     </task>
     <task id="LOCAL-00001" summary="2022 add">
       <created>1664265168100</created>
@@ -206,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699925579403</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="blog update">
+      <option name="closed" value="true" />
+      <created>1699926645454</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1699926645454</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
